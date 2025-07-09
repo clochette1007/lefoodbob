@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lefoodbob - Votre destination culinaire</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .feature {
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .cta {
+            margin-top: 3rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Lefoodbob</h1>
+            <p class="subtitle">Découvrez les meilleures saveurs du monde</p>
+        </header>
+        
+        <div class="content">
+            <h2>Bienvenue chez Lefoodbob !</h2>
+            <p>Votre destination culinaire pour découvrir, partager et savourer les meilleures recettes du monde entier.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>🍽️ Recettes Authentiques</h3>
+                    <p>Découvrez des recettes traditionnelles du monde entier, soigneusement sélectionnées par nos chefs.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>👨‍🍳 Communauté</h3>
+                    <p>Rejoignez une communauté passionnée de cuisiniers et partagez vos créations culinaires.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📱 Application Mobile</h3>
+                    <p>Emportez vos recettes partout avec notre application mobile intuitive.</p>
+                </div>
+            </div>
+            
+            <div class="cta">
+                <a href="#" class="btn">Commencer l'aventure culinaire</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        console.log('Bienvenue sur Lefoodbob ! 🍕');
+    </script>
+</body>
+</html> 
